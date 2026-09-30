@@ -4,14 +4,3 @@ body {
   font-family: Arial, sans-serif;
 }
 
-@media (min-width: 640px) {
-  .expertise-grid > article:last-child {
-    translate: 50% 0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .expertise-grid > article:nth-last-child(-n + 3) {
-    translate: 50% 0;
-  }
-}

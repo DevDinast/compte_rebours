@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +14,10 @@
 
     <header class="relative border-b border-slate-200 bg-white/80 backdrop-blur-sm">
       <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 lg:px-8">
-        <a href="https://www.qualitycorporate.com" class="logo block">
-          <img src="https://www.qualitycorporate.com/assets/img/logo-black.png" alt="Image" class="h-16 w-auto sm:h-20">
+        <a href="https://www.qualitycorporate.com" class="logo block shrink-0">
+          <img src="https://www.qualitycorporate.com/assets/img/logo-black.png" alt="Quality Corporate" class="h-12 w-auto sm:h-20">
         </a>
-        <a href="mailto:qualitycorporate@qualitycorporate.com" class="rounded-full bg-green-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-green-600/20 transition hover:bg-green-700 sm:px-8 sm:text-base">
+        <a href="mailto:qualitycorporate@qualitycorporate.com" class="rounded-full bg-green-600 px-4 py-3 text-xs font-semibold text-white shadow-lg shadow-green-600/20 transition hover:bg-green-700 sm:px-8 sm:text-base">
           Nous contacter
         </a>
       </div>
@@ -39,50 +39,35 @@
 
       <div class="rounded-[28px] border border-slate-200 bg-white p-6 shadow-[0_20px_45px_rgba(15,23,42,0.08)] sm:p-8">
         <p class="mb-5 text-sm font-bold uppercase tracking-[0.18em] text-green-600">Mise en ligne dans</p>
-        <div class="grid grid-cols-4 gap-3 text-center">
-          <div class="rounded-2xl bg-slate-50 p-3 ring-1 ring-slate-200">
-            <span id="days" class="block text-3xl font-black text-slate-900">00</span>
+        <div class="grid grid-cols-4 gap-2 text-center sm:gap-3">
+          <div class="rounded-2xl bg-slate-50 p-2 ring-1 ring-slate-200 sm:p-3">
+            <span id="days" class="block text-2xl font-black text-slate-900 sm:text-3xl">00</span>
             <span class="text-[10px] font-semibold uppercase tracking-[0.15em] text-slate-500">Jours</span>
           </div>
-          <div class="rounded-2xl bg-slate-50 p-3 ring-1 ring-slate-200">
-            <span id="hours" class="block text-3xl font-black text-slate-900">00</span>
+          <div class="rounded-2xl bg-slate-50 p-2 ring-1 ring-slate-200 sm:p-3">
+            <span id="hours" class="block text-2xl font-black text-slate-900 sm:text-3xl">00</span>
             <span class="text-[10px] font-semibold uppercase tracking-[0.15em] text-slate-500">Heures</span>
           </div>
-          <div class="rounded-2xl bg-slate-50 p-3 ring-1 ring-slate-200">
-            <span id="minutes" class="block text-3xl font-black text-slate-900">00</span>
+          <div class="rounded-2xl bg-slate-50 p-2 ring-1 ring-slate-200 sm:p-3">
+            <span id="minutes" class="block text-2xl font-black text-slate-900 sm:text-3xl">00</span>
             <span class="text-[10px] font-semibold uppercase tracking-[0.15em] text-slate-500">Min</span>
           </div>
-          <div class="rounded-2xl bg-slate-50 p-3 ring-1 ring-slate-200">
-            <span id="seconds" class="block text-3xl font-black text-slate-900">00</span>
+          <div class="rounded-2xl bg-slate-50 p-2 ring-1 ring-slate-200 sm:p-3">
+            <span id="seconds" class="block text-2xl font-black text-slate-900 sm:text-3xl">00</span>
             <span class="text-[10px] font-semibold uppercase tracking-[0.15em] text-slate-500">Sec</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="relative mt-8 border-t border-slate-200 pt-16 pb-20">
+    <section class="relative mt-8 border-t border-slate-200 pt-12 pb-16 sm:pt-16 sm:pb-20">
       <p class="text-sm font-bold uppercase tracking-[0.2em] text-green-600">Nos expertises</p>
       <h2 class="mt-4 text-2xl font-extrabold text-slate-900 sm:text-3xl">Au service de votre performance</h2>
 
-      <div class="expertise-grid mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
-          <img src="./assets/expertises/Distribution.jpeg" alt="Souris, imprimantes, écran, routeur, enceintes et accessoires informatiques" class="h-40 w-full object-cover" loading="lazy" decoding="async">
-          <div class="p-5">
-            <h3 class="font-bold text-slate-900">Distribution informatique & électrique</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">Ordinateurs, serveurs, imprimantes, consommables et solutions énergétiques.</p>
-          </div>
-        </article>
+      <div class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
 
         <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
-          <img src="./assets/expertises/PeriInformatique Protection et Service.jpeg" alt="Baies réseau et câblage informatique en salle technique" class="h-40 w-full object-cover" loading="lazy" decoding="async">
-          <div class="p-5">
-            <h3 class="font-bold text-slate-900">Péri-informatique & protections</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">Câblage structuré, contrôle d’accès, vidéosurveillance, alarmes et gestion technique du bâtiment.</p>
-          </div>
-        </article>
-
-        <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
-          <img src="./assets/expertises/Infrastructures et services .jpeg" alt="Technicien raccordant des câbles réseau à une infrastructure télécom" class="h-40 w-full object-cover" loading="lazy" decoding="async">
+          <img src="./assets/expertises/Infrastructures et services .jpeg" alt="Technicien raccordant des câbles réseau à une infrastructure télécom" class="h-48 w-full object-cover object-center sm:h-44" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Infrastructure & services</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Serveurs, stockage, sauvegarde, virtualisation, réseaux, communications unifiées et services cloud.</p>
@@ -90,7 +75,7 @@
         </article>
 
         <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
-          <img src="./assets/expertises/Confiance numerique et developpement d'application.jpeg" alt="Développeur travaillant sur le code d’une application" class="h-40 w-full object-cover" loading="lazy" decoding="async">
+          <img src="./assets/expertises/Confiance numerique et developpement d'application.jpeg" alt="Développeur travaillant sur le code d’une application" class="h-48 w-full object-cover object-center sm:h-44" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Confiance numérique & applications</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Signature électronique, horodatage certifié, applications web et mobiles, API et intégration métier.</p>
@@ -98,7 +83,7 @@
         </article>
 
         <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
-          <img src="./assets/expertises/cybersecurite.jpeg" alt="Bouclier numérique et cadenas symbolisant la cybersécurité" class="h-40 w-full object-cover" loading="lazy" decoding="async">
+          <img src="./assets/expertises/cybersecurite.jpeg" alt="Bouclier numérique et cadenas symbolisant la cybersécurité" class="h-48 w-full object-cover object-center sm:h-44" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Cybersécurité</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Audits, tests de vulnérabilité, protection des données, réponse aux incidents et sensibilisation.</p>
@@ -106,7 +91,7 @@
         </article>
 
         <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
-          <img src="./assets/expertises/Energie et service .jpeg" alt="Panneaux solaires raccordés à un réseau électrique" class="h-40 w-full object-cover" loading="lazy" decoding="async">
+          <img src="./assets/expertises/Energie et service .jpeg" alt="Panneaux solaires raccordés à un réseau électrique" class="h-48 w-full object-cover object-center sm:h-44" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Énergies & services</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Électricité, climatisation, solaire, groupes électrogènes et réseaux électriques.</p>
@@ -114,13 +99,6 @@
         </article>
 
 
-        <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
-          <img src="./assets/expertises/Conseil et Acompagnement .jpeg" alt="Équipe de conseil accompagnant un client autour d’une tablette" class="h-40 w-full object-cover" loading="lazy" decoding="async">
-          <div class="p-5">
-            <h3 class="font-bold text-slate-900">Conseil & accompagnement</h3>
-            <p class="mt-2 text-sm leading-6 text-slate-600">Un accompagnement dans le choix des équipements selon vos besoins techniques et votre budget.</p>
-          </div>
-        </article>
       </div>
     </section>
     </div>
@@ -136,7 +114,7 @@
           <div class="space-y-2 text-sm text-slate-600">
             <p><a href="https://maps.google.com/?q=Avenue+Bicentenaire+Sikecodji+Cotonou+Benin" target="_blank" rel="noreferrer" class="transition hover:text-green-600">Avenue Bicentenaire/Sikècodji, Cotonou, Bénin</a></p>
             <p><a href="tel:+22921325745" class="transition hover:text-green-600">+229 21 32 57 45</a></p>
-            <p><a href="mailto:qualitycorporate@qualitycorporate.com" class="transition hover:text-green-600">qualitycorporate@qualitycorporate.com</a></p>
+            <p><a href="mailto:qualitycorporate@qualitycorporate.com" class="break-all transition hover:text-green-600">qualitycorporate@qualitycorporate.com</a></p>
           </div>
         </div>
 
