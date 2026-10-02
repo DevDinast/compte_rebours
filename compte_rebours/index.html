@@ -4,17 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quality Corporate | Nouveau site bientôt disponible</title>
+  <title>Document</title>
   <link rel="stylesheet" href="./dist/output.css">
 </head>
 <body class="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-100 text-slate-800">
   <div class="relative">
+    <div class="pointer-events-none absolute -left-20 top-20 h-72 w-72 rounded-full bg-green-200/30 blur-3xl"></div>
+    <div class="pointer-events-none absolute -right-20 top-10 h-80 w-80 rounded-full bg-emerald-100/50 blur-3xl"></div>
+
     <header class="relative border-b border-slate-200 bg-white/80 backdrop-blur-sm">
-      <div class="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-4 sm:px-6 sm:py-5 lg:px-8">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 lg:px-8">
         <a href="https://www.qualitycorporate.com" class="logo block shrink-0">
           <img src="https://www.qualitycorporate.com/assets/img/logo-black.png" alt="Quality Corporate" class="h-12 w-auto sm:h-20">
         </a>
-        <a href="mailto:qualitycorporate@qualitycorporate.com" class="shrink-0 rounded-full bg-green-600 px-3 py-2.5 text-xs font-semibold text-white shadow-lg shadow-green-600/20 transition hover:bg-green-700 sm:px-8 sm:py-3 sm:text-base">
+        <a href="mailto:qualitycorporate@qualitycorporate.com" class="rounded-full bg-green-600 px-4 py-3 text-xs font-semibold text-white shadow-lg shadow-green-600/20 transition hover:bg-green-700 sm:px-8 sm:text-base">
           Nous contacter
         </a>
       </div>
@@ -22,11 +25,11 @@
 
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-    <section class="relative mt-8 grid items-center gap-7 pb-10 sm:mt-12 sm:gap-8 sm:pb-12 lg:grid-cols-[1.3fr_0.9fr]">
+    <section class="relative mt-12 grid items-center gap-8 pb-12 lg:grid-cols-[1.3fr_0.9fr]">
       <div class="max-w-2xl">
         <p class="text-sm font-bold uppercase tracking-[0.2em] text-green-600">Nouvelle expérience digitale</p>
-        <h1 class="mt-5 text-3xl font-black uppercase leading-[1.08] text-slate-900 sm:mt-6 sm:text-5xl lg:text-6xl">
-          Notre nouveau site <br class="hidden sm:block">arrive bientôt.
+        <h1 class="mt-6 text-4xl font-black uppercase leading-[1.05] text-slate-900 sm:text-5xl lg:text-6xl">
+          Notre nouveau site <br>arrive bientôt.
         </h1>
         <p class="mt-7 text-base leading-7 text-slate-600 sm:text-lg">
           Nous préparons une plateforme à la hauteur de vos ambitions. Plus claire, plus performante,
@@ -34,73 +37,76 @@
         </p>
       </div>
 
-      <div class="overflow-hidden rounded-[28px] border border-slate-200 shadow-[0_20px_45px_rgba(15,23,42,0.12)]">
-        <img src="./assets/femme-noire-ordinateur.jpeg" alt="Femme noire tenant un ordinateur portable dans un espace de travail" class="h-[280px] w-full object-cover sm:h-[360px] lg:h-[400px]" fetchpriority="high" decoding="async">
+      <div class="overflow-hidden rounded-[28px] border border-slate-200 shadow-[0_20px_45px_rgba(15,23,42,0.12) rounded-full">
+        <img src="./assets/equipe.jpeg" alt="Femme noire tenant un ordinateur portable dans un espace de travail" class="h-[280px] w-full object-cover sm:h-[360px] lg:h-[400px]" fetchpriority="high" decoding="async">
       </div>
     </section>
 
-    <section class="relative mt-8 border-t border-slate-200 pt-12 pb-14 sm:pt-16 sm:pb-20">
+    <section class="relative mt-8 border-t border-slate-200 pt-12 pb-16 sm:pt-16 sm:pb-20">
       <p class="text-sm font-bold uppercase tracking-[0.2em] text-green-600">Nos expertises</p>
       <h2 class="mt-4 text-2xl font-extrabold text-slate-900 sm:text-3xl">Au service de votre performance</h2>
 
-      <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
+      <div class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+
+        <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
           <img src="./assets/expertises/Infrastructures et services .jpeg" alt="Technicien raccordant des câbles réseau à une infrastructure télécom" class="aspect-[4/3] w-full bg-slate-100 object-cover object-[center_70%]" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Infrastructure & services</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Serveurs, stockage, sauvegarde, virtualisation, réseaux, communications unifiées et services cloud.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
+        <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
           <img src="./assets/expertises/Confiance numerique et developpement d'application.jpeg" alt="Développeur travaillant sur le code d’une application" class="aspect-[4/3] w-full bg-slate-100 object-cover" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Confiance numérique & applications</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Signature électronique, horodatage certifié, applications web et mobiles, API et intégration métier.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
+        <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
           <img src="./assets/expertises/cybersecurite.jpeg" alt="Bouclier numérique et cadenas symbolisant la cybersécurité" class="aspect-[4/3] w-full bg-slate-100 object-cover" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Cybersécurité</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Audits, tests de vulnérabilité, protection des données, réponse aux incidents et sensibilisation.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
+        <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
           <img src="./assets/expertises/Energie et service .jpeg" alt="Panneaux solaires raccordés à un réseau électrique" class="aspect-[4/3] w-full bg-slate-100 object-cover" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Énergies & services</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Électricité, climatisation, solaire, groupes électrogènes et réseaux électriques.</p>
           </div>
-        </div>
+        </article>
 
       </div>
-      <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:mx-auto lg:w-3/4 lg:grid-cols-3">
-        <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
+      <div class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:mx-auto lg:w-3/4 lg:grid-cols-3">
+        <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
           <img src="./assets/expertises/Conseil et Acompagnement .jpeg" alt="Équipe échangeant autour d’une tablette dans un espace de travail" class="aspect-[4/3] w-full bg-slate-100 object-cover" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Conseil & accompagnement</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Conseil numérique, accompagnement des organisations et pilotage de projets de transformation.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
+        <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
           <img src="./assets/expertises/Distribution.jpeg" alt="Équipements informatiques et périphériques professionnels" class="aspect-[4/3] w-full bg-white p-3 object-contain" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Distribution & équipements</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Matériel informatique, périphériques, consommables et solutions adaptées aux entreprises.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
+        <article class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-green-200 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)]">
           <img src="./assets/expertises/PeriInformatique Protection et Service.jpeg" alt="Racks serveurs et câblage dans une salle informatique" class="aspect-[4/3] w-full bg-slate-100 object-cover" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Péri-informatique & services</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Protection, installation, maintenance et assistance pour vos équipements et systèmes.</p>
           </div>
-        </div>
+        </article>
+
+
       </div>
     </section>
     </div>
@@ -131,6 +137,7 @@
     </div>
   </footer>
 
+  
 </body>
 </html>
 
