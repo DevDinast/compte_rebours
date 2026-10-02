@@ -34,26 +34,8 @@
         </p>
       </div>
 
-      <div class="rounded-[28px] border border-slate-200 bg-white p-4 shadow-[0_20px_45px_rgba(15,23,42,0.08)] sm:p-8">
-        <p class="mb-5 text-sm font-bold uppercase tracking-[0.18em] text-green-600">Mise en ligne dans</p>
-        <div class="grid grid-cols-4 gap-1.5 text-center sm:gap-3">
-          <div class="rounded-xl bg-slate-50 p-2 ring-1 ring-slate-200 sm:rounded-2xl sm:p-3">
-            <span id="days" class="block text-2xl font-black text-slate-900 sm:text-3xl">00</span>
-            <span class="text-[9px] font-semibold uppercase tracking-wide text-slate-500 sm:text-[10px] sm:tracking-[0.15em]">Jours</span>
-          </div>
-          <div class="rounded-xl bg-slate-50 p-2 ring-1 ring-slate-200 sm:rounded-2xl sm:p-3">
-            <span id="hours" class="block text-2xl font-black text-slate-900 sm:text-3xl">00</span>
-            <span class="text-[9px] font-semibold uppercase tracking-wide text-slate-500 sm:text-[10px] sm:tracking-[0.15em]">Heures</span>
-          </div>
-          <div class="rounded-xl bg-slate-50 p-2 ring-1 ring-slate-200 sm:rounded-2xl sm:p-3">
-            <span id="minutes" class="block text-2xl font-black text-slate-900 sm:text-3xl">00</span>
-            <span class="text-[9px] font-semibold uppercase tracking-wide text-slate-500 sm:text-[10px] sm:tracking-[0.15em]">Min</span>
-          </div>
-          <div class="rounded-xl bg-slate-50 p-2 ring-1 ring-slate-200 sm:rounded-2xl sm:p-3">
-            <span id="seconds" class="block text-2xl font-black text-slate-900 sm:text-3xl">00</span>
-            <span class="text-[9px] font-semibold uppercase tracking-wide text-slate-500 sm:text-[10px] sm:tracking-[0.15em]">Sec</span>
-          </div>
-        </div>
+      <div class="overflow-hidden rounded-[28px] border border-slate-200 shadow-[0_20px_45px_rgba(15,23,42,0.12)]">
+        <img src="./assets/femme-noire-ordinateur.jpeg" alt="Femme noire tenant un ordinateur portable dans un espace de travail" class="h-[280px] w-full object-cover sm:h-[360px] lg:h-[400px]" fetchpriority="high" decoding="async">
       </div>
     </section>
 
@@ -63,7 +45,7 @@
 
       <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
-          <img src="./assets/expertises/Infrastructures et services .jpeg" alt="Technicien raccordant des câbles réseau à une infrastructure télécom" class="h-48 w-full object-cover object-center sm:h-44" loading="lazy" decoding="async">
+          <img src="./assets/expertises/Infrastructures et services .jpeg" alt="Technicien raccordant des câbles réseau à une infrastructure télécom" class="aspect-[4/3] w-full bg-slate-100 object-cover object-[center_70%]" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Infrastructure & services</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Serveurs, stockage, sauvegarde, virtualisation, réseaux, communications unifiées et services cloud.</p>
@@ -71,7 +53,7 @@
         </div>
 
         <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
-          <img src="./assets/expertises/Confiance numerique et developpement d'application.jpeg" alt="Développeur travaillant sur le code d’une application" class="h-48 w-full object-cover object-center sm:h-44" loading="lazy" decoding="async">
+          <img src="./assets/expertises/Confiance numerique et developpement d'application.jpeg" alt="Développeur travaillant sur le code d’une application" class="aspect-[4/3] w-full bg-slate-100 object-cover" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Confiance numérique & applications</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Signature électronique, horodatage certifié, applications web et mobiles, API et intégration métier.</p>
@@ -79,7 +61,7 @@
         </div>
 
         <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
-          <img src="./assets/expertises/cybersecurite.jpeg" alt="Bouclier numérique et cadenas symbolisant la cybersécurité" class="h-48 w-full object-cover object-center sm:h-44" loading="lazy" decoding="async">
+          <img src="./assets/expertises/cybersecurite.jpeg" alt="Bouclier numérique et cadenas symbolisant la cybersécurité" class="aspect-[4/3] w-full bg-slate-100 object-cover" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Cybersécurité</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Audits, tests de vulnérabilité, protection des données, réponse aux incidents et sensibilisation.</p>
@@ -87,10 +69,36 @@
         </div>
 
         <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
-          <img src="./assets/expertises/Energie et service .jpeg" alt="Panneaux solaires raccordés à un réseau électrique" class="h-48 w-full object-cover object-center sm:h-44" loading="lazy" decoding="async">
+          <img src="./assets/expertises/Energie et service .jpeg" alt="Panneaux solaires raccordés à un réseau électrique" class="aspect-[4/3] w-full bg-slate-100 object-cover" loading="lazy" decoding="async">
           <div class="p-5">
             <h3 class="font-bold text-slate-900">Énergies & services</h3>
             <p class="mt-2 text-sm leading-6 text-slate-600">Électricité, climatisation, solaire, groupes électrogènes et réseaux électriques.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:mx-auto lg:w-3/4 lg:grid-cols-3">
+        <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
+          <img src="./assets/expertises/Conseil et Acompagnement .jpeg" alt="Équipe échangeant autour d’une tablette dans un espace de travail" class="aspect-[4/3] w-full bg-slate-100 object-cover" loading="lazy" decoding="async">
+          <div class="p-5">
+            <h3 class="font-bold text-slate-900">Conseil & accompagnement</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">Conseil numérique, accompagnement des organisations et pilotage de projets de transformation.</p>
+          </div>
+        </div>
+
+        <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
+          <img src="./assets/expertises/Distribution.jpeg" alt="Équipements informatiques et périphériques professionnels" class="aspect-[4/3] w-full bg-white p-3 object-contain" loading="lazy" decoding="async">
+          <div class="p-5">
+            <h3 class="font-bold text-slate-900">Distribution & équipements</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">Matériel informatique, périphériques, consommables et solutions adaptées aux entreprises.</p>
+          </div>
+        </div>
+
+        <div class="group overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_35px_rgba(16,185,129,0.12)] hover:border-green-200">
+          <img src="./assets/expertises/PeriInformatique Protection et Service.jpeg" alt="Racks serveurs et câblage dans une salle informatique" class="aspect-[4/3] w-full bg-slate-100 object-cover" loading="lazy" decoding="async">
+          <div class="p-5">
+            <h3 class="font-bold text-slate-900">Péri-informatique & services</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">Protection, installation, maintenance et assistance pour vos équipements et systèmes.</p>
           </div>
         </div>
       </div>
@@ -123,44 +131,6 @@
     </div>
   </footer>
 
-  <script>
-    const launchDateStorageKey = 'qualityCorporateLaunchDate';
-    const savedLaunchDate = Number(localStorage.getItem(launchDateStorageKey));
-    const hasSavedLaunchDate = Number.isFinite(savedLaunchDate) && savedLaunchDate > 0;
-    const launchDate = hasSavedLaunchDate
-      ? new Date(savedLaunchDate)
-      : new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
-
-    if (!hasSavedLaunchDate) {
-      localStorage.setItem(launchDateStorageKey, String(launchDate.getTime()));
-    }
-
-    const updateCountdown = () => {
-      const now = new Date();
-      const difference = launchDate - now;
-
-      if (difference <= 0) {
-        document.getElementById('days').textContent = '00';
-        document.getElementById('hours').textContent = '00';
-        document.getElementById('minutes').textContent = '00';
-        document.getElementById('seconds').textContent = '00';
-        return;
-      }
-
-      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((difference / (1000 * 60 * 60)) % 24);
-      const minutes = Math.floor((difference / (1000 * 60)) % 60);
-      const seconds = Math.floor((difference / 1000) % 60);
-
-      document.getElementById('days').textContent = String(days).padStart(2, '0');
-      document.getElementById('hours').textContent = String(hours).padStart(2, '0');
-      document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
-      document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
-    };
-
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-  </script>
 </body>
 </html>
 
